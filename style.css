@@ -635,30 +635,67 @@ footer {
 }
 
 /* responsive for tablet */
-@media screen and (min-width:577px) and (max-width:992px) {
-    
-    header{
-       padding: 0 70px;
-    }
-    .navbar{
-        flex-direction: column;
-    }
-    .logo{
-       margin-left:140px;
-       margin-bottom: 20px;
-       
-    }
-    .logo h1{
-        font-size: 30px;
-        
-    }
-    .navbar ul{
-   margin-left: 90px;
-    }
-    .navbar ul>li{
-        margin-right: 30px;
-    }
-    .icon{
-        padding:5px 15px;
-    }
+@media screen and (min-width:577px) and (max-width:960px) {
+header{
+  padding:0 90px;
+}
+  .navbar{
+  flex-direction: column;
+}
+.navbar ul{
+  margin-top: 30px;
+  margin-left: 90px;
+}
+.banner{
+  flex-direction: column;
+}
+.banner-des{
+  margin-left: 100px;
+}
+.primary-btn{
+  margin-left: 80px;
+}
+.gamer{
+  margin-top: 20px;
+  flex-direction: column-reverse;
+}
+.gamer-info h1{
+  text-align: center;
+}
+.card{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+.plays{
+  flex-direction: column;
+}
+.play-info h3{
+  font-size: 30px;
+  width: 200px;
+margin: 0 auto;
+  line-height: 40px;
+}
+.play-info p{
+  width: 450px;
+}
+.play-img{
+  margin-right: 80px;
+}
+.play-img1{
+  width: 100%;
+}
+.games-list {
+  margin: 0 auto;
+  padding: 2px 40px;
+}
+.game-list-1 {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  padding: 5px 40px;
+
+}
+.game-list-2 {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
 }
